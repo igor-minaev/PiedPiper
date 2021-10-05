@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	background-color: #007765;
+	top: 0;
+
+}
+
+.container {
+  max-width: 1219px;
+  margin: 0 auto;
+	padding: 0 55px;
+}
+
+.header__content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 84px;
+}
+
+.header__list{
+	display: flex;
+}
+
+.header__item{
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.header__item + .header__item{
+	margin-left: 8px;
+}
+
+.header__link{
+	text-decoration: none;
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.jumbotron {
+	background: url('../img/jumbotron-bg.png') center no-repeat ;
+	background-size: cover;
+	margin-top: 84px;
+
+}
+
+.jumbotron__title{
+	padding: 160px 0;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.problem{
+	background-color: #EEEEEE;
+	padding-top: 48px;
+	padding-bottom: 60px;
+}
+
+.problem__title{
+	font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
+
+.problem__content{
+	font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+
+.problem__style{
+	font-weight: bold;
+}
+
+.hero{
+	background: url(../img/hero-bg.png) center no-repeat;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 127px;
+}
+
+.hero__text{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.ppc{
+	background-color: #FFFFFF;
+	padding-top: 48px;
+	padding-bottom: 52px;
+}
+
+.ppc__title{
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	margin-bottom: 16px;
+}
+
+.ppc__logo{
+	float: left;
+	padding-right: 48px;
+}
+
+.ppc__text{
+	margin: 0 0 40px 0;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.ppc__style{
+	font-style: italic;
+}
